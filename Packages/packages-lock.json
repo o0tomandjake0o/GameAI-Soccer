@@ -1,5 +1,14 @@
 {
   "dependencies": {
+    "com.kurisu.akibt": {
+      "version": "git@github.com:AkiKurisu/AkiBT.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1"
+      },
+      "hash": "a4b8e1bf52dc9dd472a994a571a58557ab855d38"
+    },
     "com.unity.collab-proxy": {
       "version": "2.11.3",
       "depth": 0,
@@ -56,6 +65,13 @@
     "com.unity.ide.vscode": {
       "version": "1.2.5",
       "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.cn"
+    },
+    "com.unity.nuget.newtonsoft-json": {
+      "version": "3.2.1",
+      "depth": 0,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.cn"
